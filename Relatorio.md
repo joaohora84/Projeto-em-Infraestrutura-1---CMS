@@ -17,38 +17,38 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 ### Criamos o usuário para este banco: 
 
-**> CREATE USER 'wordpress'@'%' IDENTIFIED BY '1233';**
+> CREATE USER 'wordpress'@'%' IDENTIFIED BY '1233';
 
 ### Agora damos privilégios para este usuário:
 
-**> GRANT ALL PRIVILEGES ON wordpress.** **TO 'wordpress'@'%';**
+> GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%';
 
-**> FLUSH PRIVILEGES;**
+> FLUSH PRIVILEGES;
 
 
 ### Após configurado o mysql, e supondo que o Apache já está instalado, vamos para a instalação e configuração do WordPress
 
 ### Baixe a última versão do WordPress e extraia o pacote:
 
-**cd /tmp**
+cd /tmp
 
-**wget https://wordpress.org/latest.tar.gz**
+wget https://wordpress.org/latest.tar.gz
 
-**tar -zxvf latest.tar.gz**
+tar -zxvf latest.tar.gz
 
 ### Vamos mover a pasta wordpress para dentro o diretório raiz do Apache e dê ao usuário **www-data** controle total sobre o diretório do wordpress:
 
-**mv wordpress /var/www/html/**
+mv wordpress /var/www/html/
 
-**chown www-data.www-data /var/www/html/wordpress/ -R**
+chown www-data.www-data /var/www/html/wordpress/ -R
 
 ### Vamos agora criar o arquivo wp-config.php:
 
-**cd /var/www/html/wordpress**
+cd /var/www/html/wordpress
 
-**mv wp-config.samble.php wp-config.php**
+mv wp-config.samble.php wp-config.php
 
-**nano wp-config.php**
+nano wp-config.php
 
 ### Dentro do arquivo wp-config.php, edite as informações de conexão do banco de dados de acordo com o que foi criado no início, informando: **DB_NAME, DB_USDER, DB_PASSWORD** :
 
@@ -68,7 +68,7 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 ### Por fim, vamos acessar o wordpress pelo navegador. Para isso basta informar no browser o IP do servidor seguido da pasta wordpress: 
 
-  **http://192.168.100.34/wordpress**
+  http://192.168.100.34/wordpress
 
 ### Com isso o assinstente de instação do WordPress será apresentado.
 
