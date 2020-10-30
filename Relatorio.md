@@ -23,4 +23,7 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 **> FLUSH PRIVILEGES;**
 
-* 
+
+### Após configurado o mysql, e supondo que o Apache já está instalado, vamos para a instalação e configuração do WordPress
+
+
