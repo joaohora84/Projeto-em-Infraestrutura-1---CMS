@@ -1,7 +1,7 @@
-## Relatório instalação Wordpress
+# Relatório instalação Wordpress
 
 
-**Objetivo**
+### Objetivo
 
 Instalar e configurar o Wordpress.
 
