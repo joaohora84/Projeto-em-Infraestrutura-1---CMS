@@ -13,7 +13,7 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 ### Primeiro criamos um banco de dados chamado wordpress:
 
-**> CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE UTF8**
+> CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE UTF8
 
 ### Criamos o usuário para este banco: 
 
