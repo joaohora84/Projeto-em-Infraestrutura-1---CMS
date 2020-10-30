@@ -38,7 +38,7 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 **mv wordpress /var/www/html/**
 
-**chown www-data.www-data /var/www/html/wordpress/* -R**
+**chown www-data.www-data /var/www/html/wordpress/ -R**
 
 ### Vamos agora criar o arquivo wp-config.php:
 
