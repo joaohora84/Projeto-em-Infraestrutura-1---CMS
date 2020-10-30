@@ -19,7 +19,7 @@ Presumindo que já temos o mysql instalado, vamos logar no mysql, criar um **Dat
 
 * Agora damos privilégios para este usuário:
 
-**> GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%';**
+**> GRANT ALL PRIVILEGES ON wordpress.** **TO 'wordpress'@'%';**
 
 **> FLUSH PRIVILEGES;**
 
