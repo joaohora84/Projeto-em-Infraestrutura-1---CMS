@@ -74,9 +74,9 @@ Na tela que aparece é só inserir as informações de acesso solicitadas e pron
 
 ## Referência
 
-[1](https://itexpert.tips/pt-br/wordpress-pt-br/instalando-o-wordpress-no-ubuntu-linux/)
+[Instalando o WordPress no Ubuntu - ITEXPERT.TIPS](https://itexpert.tips/pt-br/wordpress-pt-br/instalando-o-wordpress-no-ubuntu-linux/)
 
-[2](https://www.hostinger.com.br/tutoriais/como-instalar-wordpress-ubuntu/#Instale-e-Configure-Apache-2)
+[Como instalar o WordPress no Ubuntu - HOSTINGER.COM.BR](https://www.hostinger.com.br/tutoriais/como-instalar-wordpress-ubuntu/#Instale-e-Configure-Apache-2)
 
 
 
