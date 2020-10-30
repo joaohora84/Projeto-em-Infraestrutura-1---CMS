@@ -1,6 +1,8 @@
 # Relatório instalação Wordpress
 
 
+
+
 ### Objetivo
 
 Mostrar como instalar e configurar o WordPress no Linux Server
